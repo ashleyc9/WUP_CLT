@@ -160,4 +160,4 @@ print(paste('mean = ', mean(my1000$k5),' sd = ',sd(my1000$k5)))
 
 ```
   
-
+we expect 8 and we got `r sd(my1000$k5)`
