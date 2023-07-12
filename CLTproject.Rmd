@@ -136,7 +136,7 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
   
-the standard deviation is now a quarter of what it was before which now it is 10. 
+the standard deviation is now a quarter of what it was before which now it is 10. The standard deviation continues to shrink with this numb value. 
 we expect 10 and we got `r sd(my1000$k4)`
 
 ```{r}
@@ -161,6 +161,7 @@ print(paste('mean = ', mean(my1000$k5),' sd = ',sd(my1000$k5)))
 ```
   
 we expect 8 and we got `r sd(my1000$k5)`
+What I expected was a little off from what the code gave us for the expected value. The standard deviation continues to dhrink with this numb value as well. 
 
 ```{r}
 numb = 36
@@ -184,4 +185,6 @@ print(paste('mean = ', mean(my1000$k6),' sd = ',sd(my1000$k6)))
 ```
 
   
-we expect 6 and we got `r sd(my1000$k6)`
+we expect 6 and we got `r sd(my1000$k6)` 
+My expected value was off by a little, it rounds up to 7 with the code. 
+
